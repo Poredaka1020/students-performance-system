@@ -1,12 +1,20 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+# import joblib
+import pickle
 
 
 # Chargement du modèle et le scaler
-scaler = joblib.load("scaler.pkl")
-model = joblib.load("best_model.pkl")
+# scaler = joblib.load("scaler.pkl")
+# model = joblib.load("best_model.pkl")
+
+# Charger le modèle depuis le fichier
+with open('model.pkl', 'rb') as file:
+    model = pickle.load(file)
+
+with open("scaler2.pkl", "rb") as scale:
+    scaler = pickle.load(scale)
 
 st.title("Modèle de prédiction des performances académiques des étudiants de 15-18 ans.")
 
