@@ -13,7 +13,7 @@ import pickle
 with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open("scaler2.pkl", "rb") as scale:
+with open("scaler.pkl", "rb") as scale:
     scaler = pickle.load(scale)
 
 st.title("Modèle de prédiction des performances académiques des étudiants de 15-18 ans.")
