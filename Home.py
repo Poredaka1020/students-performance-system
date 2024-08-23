@@ -12,7 +12,7 @@ st.sidebar.success("Sélectionner une page au dessus")
 st.markdown(
     """
 
-    Bienvenue sur notre application dédiée à l'analyse et à la prédiction de la performance académique des étudiants âgés de 15 à 18 ans. 
+    Bienvenue sur mon application dédiée à l'analyse et à la prédiction de la performance académique des étudiants âgés de 15 à 18 ans. 
     Ce projet explore les divers facteurs qui influencent le succès scolaire, en se concentrant sur des éléments clés tels que :
 
     - **Niveau d'éducation des parents** : Comment le parcours éducatif des parents peut influencer les performances des étudiants.
